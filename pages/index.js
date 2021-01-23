@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className={styles.image}>
         <Image 
-          src={'/../public/flowers.jpg'}
+          src={'/flowers.jpg'}
           height={600}
           width={1100}
           responsive='responsive'
@@ -20,7 +20,7 @@ export default function Home() {
       <div className={styles.imageWrapper}>
         <Image 
         className={styles.circle}
-        src={'/../public/cottage.jpg'}
+        src={'/cottage.jpg'}
         height={400}
         width={400}
       />
