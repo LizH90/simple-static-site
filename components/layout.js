@@ -16,7 +16,7 @@ const Layout = ({children}) => (
         <Link href="/location">
           <a className={styles.navlink}>Location</a>
         </Link>
-        <Link href="/accomodation">
+        <Link href="/accommodation">
           <a className={styles.navlink}>Accom</a>
         </Link>
       </div>

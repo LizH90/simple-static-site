@@ -1,0 +1,22 @@
+.titleWrapper {
+  height: 500px;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+}
+
+.title {
+  margin: auto;
+  background-color: #D3D3D3B3;
+  color: white;
+  padding: 2rem;
+}
+
+.textWrapper {
+  text-align: center;
+  padding: 1rem 5rem;
+}
+
+.illustration {
+  max-width: 75%;
+}
