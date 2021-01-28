@@ -6,11 +6,6 @@
   margin: 0 auto;
 }
 
-@media (max-width: 600px) {
-  .image {
-    height: 200px;
-  }
-}
 
 .imageWrapper {
   display: block;
@@ -26,20 +21,13 @@
 
 .wrapper {
   position: absolute;
-  left: 40%;
-  top: 20%;
+  left: calc(50% - 120px);
+  top: calc(300px - 73.5px);
   z-index: 1;
   padding: 1rem;
   background-color: #D3D3D3B3;
   color: white;
 
-}
-
-@media (max-width: 600px) {
-  .wrapper {
-    left: 20%;
-    top: 10%;
-  }
 }
 
 .timetable {
@@ -64,4 +52,23 @@
   background-color: #D3D3D3B3;
   color: white;
   padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .image {
+    height: 400px;
+  }
+  .wrapper {
+    top: calc(250px - 73.5px);
+  }
+}
+
+@media (max-width: 600px) {
+  .image {
+    height: 250px;
+  }
+  .wrapper {
+    left: calc(50% - 120px);
+    top: calc(170px - 73.5px);
+  }
 }
