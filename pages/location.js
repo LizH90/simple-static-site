@@ -9,7 +9,15 @@ export default function Location() {
       <div className={styles.textWrapper}>
         <p>Directions:</p>
         <p>Hayne, Zeal Monachorum EX17 6DE</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3138.3170677234666!2d-3.8258277320108407!3d50.81513210151705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3e9cb5ae7647df3!2sHayne%20Devon!5e0!3m2!1sen!2suk!4v1611687075494!5m2!1sen!2suk" width="600" height="450" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+        <iframe 
+          className={styles.googleMap}
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3138.3170677234666!2d-3.8258277320108407!3d50.81513210151705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3e9cb5ae7647df3!2sHayne%20Devon!5e0!3m2!1sen!2suk!4v1611687075494!5m2!1sen!2suk" 
+          width="600" 
+          height="450" 
+          frameBorder="0" 
+          allowFullScreen="" 
+          aria-hidden="false" 
+          tabIndex="0" />
         <p>By Road:</p>
         <p>
           From London / Bristol

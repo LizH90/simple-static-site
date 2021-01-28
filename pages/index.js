@@ -12,9 +12,7 @@ export default function Home() {
       <div className={styles.image}>
         <Image 
           src={'/flowers.jpg'}
-          height={600}
-          width={1100}
-          responsive='responsive'
+          layout='fill'
         />
       </div>
       <div className={styles.imageWrapper}>

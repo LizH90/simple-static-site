@@ -12,11 +12,21 @@
   padding: 2rem;
 }
 
+
 .textWrapper {
   text-align: center;
   padding: 1rem 5rem;
 }
+@media (max-width: 600px) {
+  .textWrapper {
+    padding: 1rem 1rem
+  }
+}
 
 .illustration {
   max-width: 75%;
+}
+
+.googleMap {
+  max-width: 100%;
 }

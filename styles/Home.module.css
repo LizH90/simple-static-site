@@ -1,7 +1,15 @@
 .image {
-  display: block;
-  text-align: center;
+  position: relative;
+  height: 500px;
   opacity: 0.6;
+  max-width: 1064px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .image {
+    height: 200px;
+  }
 }
 
 .imageWrapper {
