@@ -1,3 +1,15 @@
 .navlink {
   margin: 1rem;
 }
+
+@media (max-width: 600px) {
+  .navlink {
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .navlink {
+    margin: 0.25rem;
+  }
+}

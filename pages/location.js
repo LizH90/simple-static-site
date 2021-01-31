@@ -6,7 +6,7 @@ export default function Location() {
       <div className="titleWrapper">
         <h1 className="title">Location</h1>
       </div>
-      <div className={styles.textWrapper}>
+      <div className="textWrapper">
         <p>Directions:</p>
         <p>Hayne, Zeal Monachorum EX17 6DE</p>
         <iframe 

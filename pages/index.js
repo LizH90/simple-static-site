@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div className={styles.wrapper}>
-        <h1>Andy & Lizzie</h1>
+        <h1 className={styles.names}>Andy & Lizzie</h1>
         <p>July 9th 2022, Hayne, Devon</p>
       </div>
       <div className={styles.image}>
@@ -15,32 +15,18 @@ export default function Home() {
           layout='fill'
         />
       </div>
-      <div className={styles.imageWrapper}>
-        <Image 
-        className={styles.circle}
-        src={'/cottage.jpg'}
-        height={400}
-        width={400}
-      />
+      <div className="textWrapper">
+        <div className={styles.letter}>
+          <p>Dear Friends and Relatives</p>
+          <p>We are delighted to share this special moment in our lives with you, please join us for a celebrations.</p>
+          <p>We have created this site with all the information you will need for the big day.</p>
+          <p>We’ll see you in Devon.</p>
+          <p className={styles.signature}>Andy & Lizzie</p>
+        </div>
+
+
+        {/* <h2>Countdown</h2> */}
       </div>
-      <div className={styles.timetable}>
-        <h3>Running order of the day</h3>
-        <strong>Friday</strong>
-        <p>BBQ for happy campers</p>
-        <strong>Saturday</strong>
-        <p>Bar open 12.30pm</p>
-        <p>Service 2pm</p>
-        <p>Canapés and Lawn Games 3pm</p>
-        <p> Wedding Breakfast 5pm</p>
-        <p>Cut the cake</p>
-        <p>Firepit and Dancing</p>
-        <p>Carriages 1am</p>
-        <strong>Sunday</strong>
-        <p>Breakfast for campers</p>
-      </div>
-      <div className={styles.details}>Dress code: Smart Casual</div>
-      <div className={styles.details}>Car park on site</div>
-      <div className={styles.details}> Cars can be picked up the next day</div>
     </>
   )
 }

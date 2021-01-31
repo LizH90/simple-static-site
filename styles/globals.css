@@ -2,8 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-width: 320px;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 a {
@@ -18,7 +20,8 @@ a {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0;
+  margin: 1rem auto;
+  max-width: 1064px;
 }
 
 .titleWrapper {
@@ -33,4 +36,14 @@ nav {
   background-color: #D3D3D3B3;
   color: white;
   padding: 2rem;
+}
+
+.textWrapper {
+  text-align: center;
+  padding: 1rem 5rem;
+}
+@media (max-width: 600px) {
+  .textWrapper {
+    padding: 1rem 1rem
+  }
 }

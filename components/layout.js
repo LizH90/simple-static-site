@@ -10,14 +10,17 @@ const Layout = ({children}) => (
         </Link>
       </div>
       <div >
-        <Link href="/wedding">
-          <a className={styles.navlink}>Wedding</a>
+      <Link href="/details">
+          <a className={styles.navlink}>Details</a>
         </Link>
         <Link href="/location">
           <a className={styles.navlink}>Location</a>
         </Link>
-        <Link href="/accommodation">
-          <a className={styles.navlink}>Accom</a>
+        <Link href="/lodging">
+          <a className={styles.navlink}>Lodging</a>
+        </Link>
+        <Link href="/gifts">
+          <a className={styles.navlink}>Gifts</a>
         </Link>
       </div>
     </nav>
