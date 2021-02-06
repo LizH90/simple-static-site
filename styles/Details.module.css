@@ -1,0 +1,65 @@
+.image {
+  position: relative;
+  height: 500px;
+  opacity: 0.6;
+  max-width: 1064px;
+  margin: 0 auto;
+}
+
+.timetable {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.title {
+  font-family: 'Parisienne', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+}
+
+.details {
+  text-align: center;
+  margin: 2rem auto;
+  font-weight: 700;
+}
+
+.day {
+  font-family: 'Parisienne', cursive;
+  font-size: 2rem;
+}
+
+.time {
+  font-family: 'Parisienne', cursive;
+}
+
+.divider {
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .image {
+    height: 400px;
+  }
+  .wrapper {
+    top: calc(200px - 73.5px);
+    left: calc(50% - 215px);
+  }
+}
+
+@media (max-width: 600px) {
+  .image {
+    height: 250px;
+  }
+  .wrapper {
+    left: calc(50% - 120px);
+    top: calc(170px - 73.5px);
+  }
+
+  .names {
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
